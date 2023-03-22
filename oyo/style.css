@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    font-family:sans-serif;
+}
+/* nav{
+    height: 93px;
+    width: 100%;
+} */
+.oyo-logo{
+    height: 133px;
+    width: 135px;
+    margin-left: 106px;
+    margin-top: -21px;
+}
+.nav-section1,.nav-section2,.nav-section3{
+    border-right: 0.5px solid rgb(186 179 179 / 25%);
+    height: 93px;  
+    width: 288px; 
+}
+.nav-section1{
+    position: absolute;
+    left: 523px;
+}
+.nav-section2{
+    position: absolute;
+    left: 837px;
+}
+.nav-section3{
+    position: absolute;
+    left: 1154px;  
+}
+.section-text{
+    margin-left: 86px;
+    margin-top: 28px;
+    position: absolute;
+    top: 8px;
+}
+.sub-text{
+    margin-left: 86px;
+    margin-top: -11px;
+    color: rgb(134, 132, 132);
+    font-size: 14px;
+}
+.lang-select{
+    position: absolute;
+    left: 1522px;
+    border-right: 0.5px solid rgb(186 179 179 / 25%);
+    width: 120px;
+    height: 93px;
+}
+select{
+    border: none;
+}
+.lang-select select{
+    margin-top: 41px;
+    font-size: 19px;
+    margin-left: -20px;
+    font-weight: bold;
+}
+.login{
+    position: absolute;
+    left: 1732px;
+    top: 38px;
+    font-size: 18px;
+}
+.image{
+    width: 38px;
+    height: 29px;
+    margin-top: 36px;
+    margin-left: 32px;
+}
+.login .image{
+    margin-top: -3px;
+    margin-left: -43px
+}
+.login h4{
+    margin-top: -24px;
+}
+header{
+    width: 100%;
+    height: 56px;
+    background-color: rgb(186 179 179 / 25%);
+    margin-top: -24px;
+    font-size: 15px;
+}
+table th{
+    padding-left: 48px;
+    text-align: center;
+    padding-top: 26px;
+    font-size: 16px;
+    color: rgb(98, 96, 96);
+    text-align: left;
+}
+table select{
+    background-color:rgb(232 232 232 / 20%) ;
+    font-size: 17px;
+    color: rgb(98, 96, 96);
+}
+.search{
+    width: 100%;
+    height: 222px;
+    background: linear-gradient(135.46deg,#d11450,#df293a);
+    text-align: center;
+    color: #fff;
+    /* align-items: center; */
+    /* float: left; */
+}
+.search h1{
+    font-size: 44px;
+    padding-top: 48px
+}
+.search-bar{
+    background-color: #fff;
+    height: 77px;
+    width: 1361px;
+    margin-left: 289px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    /* float: left; */
+}
+.input-field,.date-field,.room-no,.search-button{
+    height: 77px;
+    border-right:0.5px solid rgb(98, 96, 96);
+    float: left;
+
+}
+.input-field{
+    width: 524px;
+   
+}
+.date-field{
+    width:346px ;
+    color:#363434;
+}
+.room-no{
+    width:293px ;
+    color:#363434;
+
+}
+.location{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(186 179 179 / 25%);
+    border-radius: 20px;
+    /* margin-right: 20px; */
+    margin-left: 402px;
+    margin-top: 21px;
+    color:#363434;
+    font-weight: bold;
+}
+.location p{
+    padding: 12px;
+}
+.search-bar input{
+    padding: 4px;
+    position: absolute;
+    top: 290px;
+    left: 308px;
+    width: 355px;
+    border: none;
+    font-size: 21px;
+}
+.search-bar h4{
+    margin-top: 27px;
+    font-size: 22px;
+    letter-spacing: 1px
+}
+.search-button{
+    float: left;
+    background-color: #1ab64f;
+    width: 193px;
+    border: 0.5px solid #1ab64f;
+    margin-top: -1px;
+    
+    
+}
+.search-button button{
+    background-color: #1ab64f;
+    border: none;
+    font-size: 26px;
+    margin-top: 21px;
+    font-weight: bold;
+    color: #fff;
+}
+.image1 img{
+    width: 1749px;
+    height: 371px;
+    margin-left: 93px;
+    margin-top: 80px;
+    border-radius: 7px;
+}
+.image2 img{
+    width: 86%;
+    height: 811px;
+    margin-top: 87px;
+    margin-left: 144px;
+    border-radius: 4px;
+}
+.sign-in{
+    width: 90%;
+    height: 122px;
+    border: 1px solid #e2dfdf;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-top: 66px;
+    color: #363434;
+}
+/* .bg-img{
+    width: 50%;
+    height: 611px;
+    background-color:rgba(159, 153, 153, 0.2) ;
+    margin-top: 32px;
+    float: left;
+} */
+.bg-img img{
+    width: 874px;
+    height: 493px;
+    padding: 59px 29px
+}
+.bg-img-text{
+    background-color: #1ab64f;
+    width: 50%;
+    height: 611px;
+    float: left;
+    /* margin-right: 102px; */
+    /* margin-left: 935px */
+
+
+}
+.bg-img,.bg-text{
+    float: left;
+    height: 614px;
+    width: 50%;
+    margin-top: 30px;
+    background-color:rgba(159, 153, 153, 0.2) ;
+    color: #363434;
+}
+.bg-text h1{
+    margin-top: 91px;
+    font-size: 35px;
+}
+.bg-text .p-text1{
+    margin-top: 38px;
+    font-size: 20px;
+    color: #514f4f
+}
+.bg-text span{
+    padding-left: 77px;
+}
+.bg-text h2{
+    color: black;
+    margin-top: 64px;
+    font-size: 49px
+}
+.bg-text .p-text2{
+    margin-top: 20px;
+    color: #514f4f;
+    font-size: 20px;
+}
+.bg-text table{
+    margin-left: -112px;
+    margin-top: 28px;
+}
+.bg-text ul{
+    list-style: none;
+}
+.bg-text li{
+    padding: 20px;
+    font-size: 20px;
+}
+.countryimg1 .country1{
+    position: absolute;
+    margin-top: -524px;
+    width: 141px;
+    margin-left: 116px;
+    height: 159px;
+}
+.countryimg2 .country2{
+    position: absolute;
+    margin-top: -607px;
+    width: 141px;
+    margin-left: 519px;
+    height: 159px;
+}
+.countryimg3 .country3{
+    position: absolute;
+    margin-top: -380px;
+    width: 141px;
+    margin-left: 352px;
+    height: 159px;
+}
+.countryimg4 .country4{
+    position: absolute;
+    margin-top: -422px;
+    width: 139px;
+    margin-left: 524px;
+    height: 97px;
+}
+.countryimg5 .country5{
+    position: absolute;
+    margin-top: -272px;
+    width: 129px;
+    margin-left: 503px;
+    height: 152px;
+}
+.countryimg6 .country6{
+    position: absolute;
+    margin-top: -570px;
+    width: 136px;
+    margin-left: 348px;
+    height: 143px;
+}
+.fire-img{
+    width: 95px;
+    height: 101px;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+.sign-in h2{
+    margin-left: 141px;
+    margin-top: -82px;
+    font-size: 27px
+}
+.sign-in p{
+    margin-left: 143px;
+    margin-top: 8px;
+    font-size: 19px;
+    color: #514f4f;
+}
+.sign-in input{
+    width: 365px;
+    height: 59px;
+    position: absolute;
+    margin-top: -66px;
+    margin-left: 1055px;
+    border: 1px solid #e2dfdf;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.sign-in button{
+    background-color: #ee2a24;
+    border: 1px solid red;
+    position: absolute;
+    color: #fff;
+    margin-left: 1454px;
+    margin-top: -67px;
+    width: 189px;
+    height: 62px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer{
+    position: absolute;
+    top: 2558px;
+    width: 100%;
+    height: 1000px;
+    background-color:  #777777;
+}
+.footer-text{
+    height: 100px;
+    width: 100%;
+    background-color: #777777;
+    border-bottom: 1px solid #fff;
+}
+.footer-text h1,h2{
+    color: #fff;
+    font-size: 29px;
+
+}
+.footer-text h1{
+    font-size: 73px;
+    margin-left: 45px;
+    margin-top: 36px;
+}
+.footer-text .first-text{
+    margin-left: 248px;
+    margin-top: -67px;
+}
+.sec-text{
+    margin-left: 1070px;
+    margin-top: -31px;
+}
+.link-section{
+    width: 89%;
+    height: 274px;
+    border-bottom: 1px solid #fff;
+    margin-left: 107px;
+    font-size: 20px;
+}
+.link-section th{
+    text-align: left;
+}
+.download,.first-ul,.sec-ul{
+    float: left;
+    color: #fff;
+    height: 209px;
+    width: 559px;
+    margin-top: 42px;
+}
+.first-ul table,.sec-ul table{
+    margin-left: -76px;
+    margin-top: -32px;
+    text-align: left;
+}
+.first-ul{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    
+}
+.first-ul li,.sec-ul li{
+    padding: 16px 7px;
+    list-style-type: none;
+    color: #fff;
+}
+.download img{
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-left: 5px;
+    height: 61px;
+}
+.locations{
+    width: 89%;
+    height: 445px;
+    border-bottom: 1px solid #fff;
+    margin-left: 107px;
+}
+.locations table{
+    margin-left: -113px;
+    margin-top: -11px;
+}
+.locations li{
+    padding: 10px;
+    color: #fff;
+    list-style-type: none;
+    font-size: 18px;
+}
+.locations h3{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: -11px;
+    font-size: 25px;
+
+}
+.icons{
+    margin-left: 108px;
+    margin-top: 47px;
+}
+
+
